@@ -13,6 +13,7 @@ import javafx.scene.Parent;
  * @since 10/09/2021
  */
 public class AppInitializer {
+
     Parent parent=(FXMLLoader.load(this.getClass().getResource("/view/CustomerForm.fxml")));
         primaryStage.setScene(new Scene(parent));
         primaryStage.show();

@@ -21,6 +21,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class CrudUtill {
+
     private static PreparedStatement getPreparedStatement(String sql, Object... prms) throws SQLException, ClassNotFoundException {
         Connection connection= DBConnection.getInstance().getConnection();
         PreparedStatement stm=connection.prepareStatement(sql);
