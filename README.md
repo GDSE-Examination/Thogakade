@@ -1,4 +1,4 @@
-This project is xxx project
+This project is Thogakade project
 
 app run
      setup gradle and run

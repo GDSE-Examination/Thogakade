@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!--
+  ~ /*----------------------------------------------------------------------------------------
+  ~ *Copyright (c)  Thogakade. All rights reserved.
+  ~ *License under the  SriLanka.See License but in the project root for license information. 
+  ~ *----------------------------------------------------------------------------------------*/
+  -->
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerFormController">
+    <children>
+        <JFXTextField fx:id="txtcusId" layoutX="272.0" layoutY="88.0" />
+        <Label layoutX="119.0" layoutY="88.0" text="customerId">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="190.0" layoutY="21.0" text="Add Customer Form">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Label>
+        <JFXTextField fx:id="txtcusName" layoutX="272.0" layoutY="133.0" />
+        <Label layoutX="119.0" layoutY="133.0" text="name">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <JFXTextField fx:id="txtcusAddress" layoutX="272.0" layoutY="181.0" />
+        <Label layoutX="119.0" layoutY="181.0" text="address">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <JFXTextField fx:id="txtcusSalary" layoutX="272.0" layoutY="233.0" />
+        <Label layoutX="119.0" layoutY="233.0" text="salary">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <Button layoutX="261.0" layoutY="313.0" mnemonicParsing="false" onAction="#CustomerAddOnAction" prefHeight="25.0" prefWidth="79.0" text="Add" />
+        <Button layoutX="421.0" layoutY="313.0" mnemonicParsing="false" onAction="#printOnAction" prefHeight="25.0" prefWidth="85.0" text="print" />
+    </children>
+</AnchorPane>
+
